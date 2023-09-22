@@ -21,23 +21,12 @@ if "%errorlevel%" == "0" (
 REM Habilitar servicios de Hyper-V
 echo Habilitando servicios de Hyper-V...
 
-sc config vmms start= auto
-sc start vmms
-
-sc config vhdsvc start= auto
-sc start vhdsvc
-
-sc config hvhost start= auto
-sc start hvhost
-
-sc config HvHostNetSvc start= auto
-sc start HvHostNetSvc
-
-sc config HvHostSvc start= auto
-sc start HvHostSvc
-
-sc config vmicheat start= auto
-sc start vmicheat
+sc config vmms start= demand
+sc config vhdsvc start= demand
+sc config hvhost start= demand
+sc config HvHostNetSvc start= demand
+sc config HvHostSvc start= demand
+sc config vmicheat start= demand
 
 echo Servicios de Hyper-V habilitados correctamente.
 
