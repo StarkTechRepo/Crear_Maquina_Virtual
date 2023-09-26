@@ -1,3 +1,7 @@
+# **Máquinas Virtuales en Windows**
+
+Las máquinas virtuales (VM) en Windows son sistemas operativos virtuales que se ejecutan dentro de tu sistema Windows principal. Utilizan una porción del espacio en tu disco duro para funcionar de manera independiente. Lo destacado es que, cuando eliminas una máquina virtual, el espacio que ocupaba se recupera automáticamente en tu disco duro, lo que brinda flexibilidad y ahorro de recursos.
+
 # Creación y Uso de una Máquina Virtual en VirtualBox
 
 Este documento proporciona instrucciones para crear y utilizar una máquina virtual en VirtualBox para probar una ISO de un sistema operativo.
